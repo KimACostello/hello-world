@@ -10,4 +10,6 @@ My name is Kim Costello. I live in Raleigh, NC. I am married, and have one daugh
 
 I have two dogs named Luna and Stella. 
 I graduated from Meredith College. 
->>>>>>> a7b3de96a55bd3a625e5a8dda8785b3c0c109a89
+
+I am excited about learning about Data Science.
+
