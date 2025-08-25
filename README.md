@@ -8,3 +8,5 @@ I graduated from Meredith College.
 
 I am excited about learning about Data Science.
 
+I am currently a QA manager at BioAgilytix.
+
