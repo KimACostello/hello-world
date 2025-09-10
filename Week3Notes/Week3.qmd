@@ -88,12 +88,15 @@ lines(norm_x,
       )
 }
 ```
-Test it. 
+
+Test it.
+
 ```{r}
 plot_norm_approx(30,0.50)
 ```
 
-Add some default values. 
+Add some default values.
+
 ```{r}
 plot_norm_approx <- function(n = 30, prob = 0.5){
   plot(0:n,
@@ -107,4 +110,3 @@ lines(norm_x,
 
 plot_norm_approx()
 ```
-

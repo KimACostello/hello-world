@@ -1,6 +1,6 @@
 ---
 title: "R Objects, Workflow, and Functions"
-format: html
+format: pdf
 editor: visual
 ---
 
@@ -65,17 +65,22 @@ colnames(trees)[2:3]
 
 # Lists
 
-Investigating data frame from before. 
+Investigating data frame from before.
+
 ```{r}
 is.list(trees)
 ```
+
 ```{r}
 is.data.frame(trees)
 ```
-Can subset as a list. 
+
+Can subset as a list.
+
 ```{r}
 trees[1]
 ```
+
 ```{r}
 trees[[1]]
 ```
@@ -83,24 +88,31 @@ trees[[1]]
 ```{r}
 trees[1:2]
 ```
+
 ```{r}
 trees[[2]]
 ```
-Look at linear model fit. 
+
+Look at linear model fit.
+
 ```{r}
 fit <- lm(Volume ~ Height + Girth, data = trees)
 ```
-Look at structure but restrict info. 
+
+Look at structure but restrict info.
+
 ```{r}
 str(fit, max.level=1)
 ```
-Some helper functions exist. 
+
+Some helper functions exist.
+
 ```{r}
 fit$coefficients
 coef(fit)
 ```
+
 ```{r}
 fit$residuals
 residuals(fit)
 ```
-
